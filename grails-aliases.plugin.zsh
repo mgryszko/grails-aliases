@@ -1,0 +1,16 @@
+alias gta='grails test-app'
+alias gtad='grails -debug test-app'
+alias gcn='(grails codenarc || (cat target/CodeNarc-Report.txt; exit 1))'
+alias gtau='gta unit:'
+alias gtaud='gtad unit:'
+alias gtai='grails test-app integration:'
+alias gtaid='grails -debug test-app integration:'
+alias gtaui='gta unit: integration:'
+alias gtaf='grails test-app functional:'
+alias gtafd='grails -debug test-app functional:'
+alias gra='grails run-app'
+alias gc='grails clean'
+
+alias gtae='open target/test-reports/html/index.html'
+alias gcne='open target/CodeNarc-Report.html'
+
